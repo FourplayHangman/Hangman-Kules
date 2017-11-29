@@ -1,0 +1,49 @@
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+tries = 5
+imgplot = plt.imshow(mpimg.imread('turtle7.jpg'))
+plt.ion()
+plt.show()
+
+while tries >= 0:
+    if tries == 5:
+        guess = input("Enter a letter?: ")
+        imgplot = plt.imshow(mpimg.imread('turtle6.jpg'))
+        plt.ion()
+        plt.show()
+#        guess = input("Enter a letter?: ")
+        tries = tries - 1
+    elif tries == 4:  
+        guess = input("Enter a letter?: ")
+        imgplot = plt.imshow(mpimg.imread('turtle5.jpg'))
+        plt.ion()
+        plt.show()
+        tries = tries - 1
+    elif tries == 3:  
+        guess = input("Enter a letter?: ")
+        imgplot = plt.imshow(mpimg.imread('turtle4.jpg'))
+        plt.ion()
+        plt.show()
+        tries = tries - 1
+    elif tries ==2: 
+        guess = input("Enter a letter?: ")
+        imgplot = plt.imshow(mpimg.imread('turtle3.jpg'))
+        plt.ion()
+        plt.show()
+        tries = tries - 1    
+    elif tries ==1: 
+        guess = input("Enter a letter?: ")
+        imgplot = plt.imshow(mpimg.imread('turtle2.jpg'))
+        plt.ion()
+        plt.show()
+        tries = tries - 1     
+    elif tries ==0: 
+        guess = input("Enter a letter?: ")
+        imgplot = plt.imshow(mpimg.imread('turtle1.jpg'))
+        plt.ion()
+        plt.show()
+        print ("you lose") 
+        break
+plt.close()
+
+#This is how the source code was edited to make the hangman character "Testudo"

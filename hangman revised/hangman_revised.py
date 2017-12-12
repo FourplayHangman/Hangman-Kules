@@ -368,6 +368,6 @@ if __name__ == '__main__':
     print(UMD_word.upper(), "\n")
     # lose message
     print(f"{string_list[13]}")
-    print(bye)
+    print("\033[1;31;47m Bye  \n")
 
     sys.exit(0)

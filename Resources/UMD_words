@@ -3,7 +3,7 @@
 "UMD_words.txt"
 "File not found:\nVARIABLE"
 "File seems corrupted:\nVARIABLE"
-"\n\nWelcome to The University of Marylands official Hangman game!\n\nWhile in game, type ""exit"" or ""quit"" to leave the game.\n\nPress Enter to continue"
+"\n\nWelcome to The University of Marylands unofficial Hangman game!\n\nWhile in game, type ""exit"" or ""quit"" to leave the game.\n\nPress Enter to continue"
 "\n\nThanks for playing! Bye!\n\n"
 "Incorrect guesses:\nVARIABLE"
 "The UMD word: VARIABLE"

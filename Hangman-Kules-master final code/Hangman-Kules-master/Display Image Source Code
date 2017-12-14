@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
+imgplot = plt.imshow(mpimg.imread('animal.png'))
+plt.ion()
+plt.show()
+animal_name = raw_input("What is the name?: ")
+plt.close()
+
+#This is the initial code found at https://stackoverflow.com/questions/13327759/how-to-display-and-close-image-in-python
